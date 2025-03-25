@@ -1,0 +1,30 @@
+.user-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.user-card h2 {
+    font-size: 1.5em;
+    margin: 0 0 8px;
+}
+
+.user-card p {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+}
